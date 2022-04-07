@@ -1,0 +1,27 @@
+<?php
+
+namespace App\Database\Migrations;
+
+use CodeIgniter\Database\Migration;
+
+class AdicionaColunaCpfParaUsuarios extends Migration
+{
+    public function up()
+    {
+        $field = [
+            'cpf' => [
+                'type' => 'VARCHAR',    
+                'constraint' => '50',
+
+            ]
+        ];
+        
+        $this->forge->addColumn('usuarios', $field);
+    }
+
+    public function down(){
+
+        $this->forge->dropColumn('usuarios', 'cpf');
+        
+    }
+}
