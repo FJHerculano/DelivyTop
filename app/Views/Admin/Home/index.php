@@ -9,23 +9,12 @@
 
 
 
-
-
-
-
-
 <?php echo $this->section('conteudo') ?>
 
   <!-- Aqui enviamos os conteudos para o template principal -->
   <?php echo $titulo; ?>
 
 <?php echo $this->endsection() ?>
-
-
-
-
-
-
 
 
 

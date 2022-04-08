@@ -14,14 +14,16 @@ class UsuarioSeeder extends Seeder
         $usuario = [
             'nome' => 'Francisco José' ,
             'email' => 'admin@admin.com',
+            'cpf' => '349.957.910.35',
             'telefone' => '88 - 9999-9999',
         ];
 
         $usuarioModel->protect(false)->insert($usuario);
 
         $usuario = [
-            'nome' => 'Fulano tal' ,
+            'nome' => 'Fulano tal' , 
             'email' => 'fulano@fulano.com',
+            'cpf' => '349.466.600.89',
             'telefone' => '88 - 1111-1111',
         ];
 
