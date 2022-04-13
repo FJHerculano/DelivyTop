@@ -55,14 +55,17 @@
                
                 <a href="<?php echo site_url("admin/usuarios/editar/$usuario->id"); ?>" class="btn btn-dark btn-sm mr-2">
                     Editar
+                    <i class="mdi mdi-pencil btn-icon-prepend"></i>
                 </a>
 
                 <a href="<?php echo site_url("admin/usuarios/excluir/$usuario->id"); ?>" class="btn btn-danger btn-sm mr-2">
                     Excluir
+                    <i class="mdi mdi-trash-can btn-icon-prepend"></i>
                 </a>
 
                 <a href="<?php echo site_url("admin/usuarios"); ?>" class="btn btn-light btn-sm border-dark">
                     voltar
+                    <i class="mdi mdi-arrow-left btn-icon-prepend"></i>
                 </a>
 
 

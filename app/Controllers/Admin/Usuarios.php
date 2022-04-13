@@ -69,6 +69,56 @@ class Usuarios extends BaseController
         return view('Admin/Usuarios/show', $data);
     }
 
+    
+
+    public function editar($id = null){
+
+        $usuario = $this->buscaUsuarioOu404($id);
+        $data = [
+            
+            'titulo' => "Editando o usuário $usuario->nome",
+            'usuario' => $usuario,
+
+        ];
+        return view('Admin/Usuarios/editar', $data);
+    }
+
+    public function atualizar($id = null){
+
+        if($this->request->getMethod() === 'post'){
+            $usuario = $this->buscaUsuarioOu404($id);
+
+            $post = $this->request->getPost();
+
+            if(empty($post['password'])){
+
+                $this->usuarioModel->desabilitaValidacaoSenha();
+                unset($post['password']);
+                unset($post['password_confirmation']);
+
+            }
+
+            $usuario->fill($post);
+
+            if(!$usuario->hasChanged()){
+                return redirect()->back()->with('info', 'Nenhum dado foi modificado');
+            }
+
+            if($this->usuarioModel->protect(false)->save($usuario)){
+
+                return redirect()->to(site_url("admin/usuarios/show/$usuario->id"))
+                            ->with('sucesso', "Usuario $usuario->nome atualizado com sucesso.");
+            }else{
+
+                return redirect()->back()->with('errors_model', $this->usuarioModel->errors())
+                            ->with('atencao', 'Por favor verifique os dados abaixo')->withInput();
+            }
+
+        }else{
+            // Não é post
+            return redirect()->back();
+        }
+    }
 
     /**
      *  
