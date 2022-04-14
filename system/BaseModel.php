@@ -858,7 +858,7 @@ abstract class BaseModel
         if ($this->tempAllowCallbacks) {
             $eventData = $this->trigger('beforeUpdate', $eventData);
         }
-
+        
         $eventData = [
             'id'     => $id,
             'data'   => $eventData['data'],
