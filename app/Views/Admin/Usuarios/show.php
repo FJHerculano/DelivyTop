@@ -46,27 +46,55 @@
                 <?php echo ($usuario->criado_em->humanize()); ?>
             </p>
 
-            <p class="card-text">
+            <?php if($usuario->deletado_em == null): ?>
+
+              <p class="card-text">
                 <span class="font-weight-bold">Atualizado: </span>
                 <?php echo ($usuario->atualizado_em->humanize()); ?>
-            </p>
+              </p>
+            
+            <?php else: ?>
+              <p class="card-text">
+                <span class="font-weight-bold text-danger">Excluído: </span>
+                <?php echo ($usuario->deletado_em->humanize()); ?>
+              </p>
+            <?php endif; ?>
+              
 
             <div class="mt-4">
-               
-                <a href="<?php echo site_url("admin/usuarios/editar/$usuario->id"); ?>" class="btn btn-dark btn-sm mr-2">
+
+            <?php if($usuario->deletado_em == null): ?>
+
+              <a href="<?php echo site_url("admin/usuarios/editar/$usuario->id"); ?>" class="btn btn-dark btn-sm mr-2">
                     Editar
                     <i class="mdi mdi-pencil btn-icon-prepend"></i>
-                </a>
-
-                <a href="<?php echo site_url("admin/usuarios/excluir/$usuario->id"); ?>" class="btn btn-danger btn-sm mr-2">
+              </a>
+              
+              <a href="<?php echo site_url("admin/usuarios/excluir/$usuario->id"); ?>" class="btn btn-danger btn-sm mr-2">
                     Excluir
                     <i class="mdi mdi-trash-can btn-icon-prepend"></i>
-                </a>
-
-                <a href="<?php echo site_url("admin/usuarios"); ?>" class="btn btn-light btn-sm border-dark">
+              </a>
+              
+              <a href="<?php echo site_url("admin/usuarios"); ?>" class="btn btn-light btn-sm border-dark">
                     voltar
                     <i class="mdi mdi-arrow-left btn-icon-prepend"></i>
-                </a>
+              </a>
+            <?php else: ?>
+              <a href="<?php echo site_url("admin/usuarios"); ?>" class="btn btn-light btn-sm border-dark mr-2">
+                    voltar
+                    <i class="mdi mdi-arrow-left btn-icon-prepend"></i>
+              </a>
+              <a href="<?php echo site_url("admin/usuarios/desfazerexclusao/$usuario->id"); ?>" class="btn btn-dark btn-sm ">
+                Desfazer exclusão
+                <i class="mdi mdi-undo btn-icon-prepend"></i>
+              </a>   
+            <?php endif; ?>
+               
+           
+
+            
+
+       
 
 
             </div>        

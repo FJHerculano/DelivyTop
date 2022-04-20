@@ -41,6 +41,7 @@
                   <th>E-mail</th>
                   <th>CPF</th>
                   <th>Ativo</th>
+                  <th>Situação</th>
                 </tr>
               </thead>
               <tbody>
@@ -55,13 +56,31 @@
                   </td>
                   <td><?php echo $usuario->email?></td>
                   <td><?php echo $usuario->cpf?></td>
-                  <td><?php echo ($usuario->ativo ? '<label class="badge badge-primary">Ativo</label>' :' <label class="badge badge-warning">Desativado</label>') ?></td>
+                  <td><?php echo ($usuario->ativo && $usuario->deletado_em == null ? '<label class="badge badge-primary">Ativo</label>' :' <label class="badge badge-warning">Desativado</label>') ?></td>
+                  <td>
+
+                    <?php echo ($usuario->deletado_em === null ? '<label class="badge badge-success">Disponivel</label>' : ' <label class="badge badge-danger">Excluido</label>') ?>
+                   
+                    <?php if($usuario->deletado_em !== null): ?>
+
+                      <a href="<?php echo site_url("admin/usuarios/desfazerexclusao/$usuario->id"); ?>" class="badge badge-dark ml-2">
+                          Desfazer
+                          <i class="mdi mdi-undo btn-icon-prepend"></i>
+                      </a>                              
+       
+                    <?php endif;?>
+                  </td>
                   </tr>
 
                 <?php endforeach; ?>
 
               </tbody>
             </table>
+
+            <div class="mt-3">
+              <?php echo $pager->links()?>
+            </div>
+
           </div>
         </div>
       </div>
