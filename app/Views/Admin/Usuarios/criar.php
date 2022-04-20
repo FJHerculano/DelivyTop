@@ -31,11 +31,11 @@
         <?php endif; ?>
 
         <!-- Formulario de cadastro  -->
-        <?php echo form_open("admin/usuarios/atualizar/$usuario->id"); ?>
+        <?php echo form_open("admin/usuarios/cadastrar/$usuario->id"); ?>
 
           <?php echo $this->include('Admin/Usuarios/form'); ?>
 
-          <a href="<?php echo site_url("admin/usuarios/show/$usuario->id"); ?>" class="btn btn-light btn-sm border-dark">
+          <a href="<?php echo site_url("admin/usuarios/"); ?>" class="btn btn-light btn-sm border-dark">
             voltar
             <i class="mdi mdi-arrow-left btn-icon-prepend"></i>
           </a>

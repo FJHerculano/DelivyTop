@@ -3755,3 +3755,703 @@ CRITICAL - 2022-04-13 21:54:30 --> Argument 2 passed to CodeIgniter\Validation\R
 #10 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #11 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
 #12 {main}
+CRITICAL - 2022-04-13 22:05:27 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:05:27 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:05:27 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:05:27 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:05:27 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:05:27 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:05:31 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:05:31 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:05:31 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:05:31 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:05:31 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:05:31 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:05:38 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 59
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(59): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:05:38 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 59
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(59): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:05:38 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 59
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(59): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:05:38 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 59
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(59): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:05:38 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 59
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(59): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:05:38 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 59
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(59): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:05:40 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:05:40 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:05:40 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:05:40 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:05:40 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:05:40 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:05:44 --> Argument 2 passed to CodeIgniter\Validation\Rules::is_unique() must be of the type string, null given, called in C:\xampp\htdocs\food\system\Validation\Validation.php on line 291
+#0 C:\xampp\htdocs\food\system\Validation\Validation.php(291): CodeIgniter\Validation\Rules->is_unique('(88) 11111-1132', NULL)
+#1 C:\xampp\htdocs\food\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('telefone', 'telefone', '(88) 11111-1132', Array, Array)
+#2 C:\xampp\htdocs\food\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 C:\xampp\htdocs\food\system\BaseModel.php(835): CodeIgniter\BaseModel->validate(Array)
+#4 C:\xampp\htdocs\food\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#5 C:\xampp\htdocs\food\system\BaseModel.php(656): CodeIgniter\Model->update('2', Object(App\Entities\Usuario))
+#6 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(107): CodeIgniter\BaseModel->save(Object(App\Entities\Usuario))
+#7 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->atualizar('2')
+#8 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#9 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-04-13 22:05:46 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:05:47 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:05:47 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:05:47 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:05:47 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:05:47 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:05:57 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 59
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(59): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:05:57 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 59
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(59): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:05:57 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 59
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(59): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:05:57 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 59
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(59): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:05:57 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 59
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(59): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:05:57 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 59
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(59): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:04 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:04 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:04 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:04 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:04 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:04 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:11 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 59
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(59): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:11 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 59
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(59): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:11 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 59
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(59): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:11 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 59
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(59): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:11 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 59
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(59): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:11 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 59
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(59): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:13 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:13 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:13 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:13 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:13 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:14 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:20 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 59
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(59): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:20 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 59
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(59): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:20 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 59
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(59): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:20 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 59
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(59): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:20 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 59
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(59): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:20 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 59
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(59): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:23 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 59
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(59): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:23 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 59
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(59): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:23 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 59
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(59): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:23 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 59
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(59): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:23 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 59
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(59): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:23 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 59
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(59): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:24 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:24 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:24 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:24 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:24 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:24 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:28 --> Argument 2 passed to CodeIgniter\Validation\Rules::is_unique() must be of the type string, null given, called in C:\xampp\htdocs\food\system\Validation\Validation.php on line 291
+#0 C:\xampp\htdocs\food\system\Validation\Validation.php(291): CodeIgniter\Validation\Rules->is_unique('(88) 9999-9991', NULL)
+#1 C:\xampp\htdocs\food\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('telefone', 'telefone', '(88) 9999-9991', Array, Array)
+#2 C:\xampp\htdocs\food\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 C:\xampp\htdocs\food\system\BaseModel.php(835): CodeIgniter\BaseModel->validate(Array)
+#4 C:\xampp\htdocs\food\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#5 C:\xampp\htdocs\food\system\BaseModel.php(656): CodeIgniter\Model->update('1', Object(App\Entities\Usuario))
+#6 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(107): CodeIgniter\BaseModel->save(Object(App\Entities\Usuario))
+#7 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->atualizar('1')
+#8 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#9 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-04-13 22:06:30 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:30 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:30 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:30 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:30 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:30 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:34 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:34 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:34 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:34 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:34 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-13 22:06:34 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 76
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(76): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
