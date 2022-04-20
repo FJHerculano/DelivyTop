@@ -24,6 +24,8 @@ class Validation
         FormatRules::class,
         FileRules::class,
         CreditCardRules::class,
+        // carregando minhas validações,(cpf personalizado)
+        \App\Validacoes\MinhasValidacoes::class,
     ];
 
     /**
