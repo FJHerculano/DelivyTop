@@ -19,7 +19,6 @@
             <div class="col-lg-5 mx-auto">
                 <div class="auth-form-light text-left py-5 px-4 px-sm-5">
 
-    
                 <?php if(session()->has('sucesso')): ?>
                     <div class="alert alert-success alert-dismissible fade show" role="alert">
                         <strong>Perfeito!</strong><?php echo session('sucesso'); ?>

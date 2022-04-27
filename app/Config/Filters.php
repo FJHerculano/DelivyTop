@@ -24,6 +24,8 @@ class Filters extends BaseConfig
         'invalidchars'  => InvalidChars::class,
         'secureheaders' => SecureHeaders::class,
         'login'         => \App\Filters\LoginFilter::class, // Filtro de login
+        'admin'         => \App\Filters\AdminFilter::class, // Filtro de admin
+        'visitante'         => \App\Filters\VisitanteFilter::class, // Filtro de visitante
     ];
 
     /**
@@ -68,7 +70,12 @@ class Filters extends BaseConfig
     public $filters = [
         'login' => [
             'before'=> [
-                'admin/*', 
+                'admin/*', // Todos os controles que estão dentro do namespace admin só serão acessados se estiver logado
+            ],
+        ],
+        'admin' => [
+            'before'=> [
+                'admin/*', // Todos os controles que estão dentro do namespace admin só serão acessados por um admin
             ],
         ],
     ];
