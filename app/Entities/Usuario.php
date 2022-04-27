@@ -13,4 +13,8 @@ class Usuario extends Entity
         'deletado_em'
     ];
 
+    public function verificaPassword(string $password){
+        return password_verify($password, $this->password_hash);
+    }
+
 }

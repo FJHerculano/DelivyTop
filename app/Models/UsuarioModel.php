@@ -75,6 +75,7 @@ class UsuarioModel extends Model
         return $this->select('id,nome')->like('nome', $term)->get()->getResult();
     }
 
+
     public function desabilitaValidacaoSenha(){
         unset($this->validationRules['password']);
         unset($this->validationRules['password_confirmation']);
@@ -86,4 +87,15 @@ class UsuarioModel extends Model
                 ->set('deletado_em', null)
                 ->update();
     }
+
+    /**
+     * @uso Classe Autenticacao
+     * @param string $email
+     * @return objecto $usuario
+     */
+    public function buscaUsuarioPorEmail(string $email){
+        return $this->where('email', $email)->first();
+    }
+
+
 }
