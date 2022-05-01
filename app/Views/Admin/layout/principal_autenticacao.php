@@ -35,6 +35,9 @@
   <script src="<?php echo site_url('admin/'); ?>js/hoverable-collapse.js"></script>
   <script src="<?php echo site_url('admin/'); ?>js/template.js"></script>
   <!-- endinject -->
+
+  <!-- Essa section renderizará os scripts especificos da view que estender esse layout -->
+  <?php echo $this->renderSection('scripts') ?> 
 </body>
 
 </html>

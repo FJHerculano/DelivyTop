@@ -104,9 +104,9 @@ class CriaTabelaUsuario extends Migration
 
     }
 
-    public function down()
-    {
+    public function down(){
         //
         $this->forge->dropTable('usuarios');
+        
     }
 }

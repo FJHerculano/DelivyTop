@@ -25,7 +25,9 @@ class Filters extends BaseConfig
         'secureheaders' => SecureHeaders::class,
         'login'         => \App\Filters\LoginFilter::class, // Filtro de login
         'admin'         => \App\Filters\AdminFilter::class, // Filtro de admin
-        'visitante'         => \App\Filters\VisitanteFilter::class, // Filtro de visitante
+        'visitante'     => \App\Filters\VisitanteFilter::class, // Filtro de visitante
+        'throttle'      => \App\Filters\ThrottleFilter::class,         // filtro que ajuda a previnir ataques de força bruta (varias requisição post por segundo)
+
     ];
 
     /**
@@ -56,8 +58,9 @@ class Filters extends BaseConfig
      *
      * @var array
      */
-    public $methods = [];
-
+    public $methods = [
+        'post' => ['throttle'],
+    ];
     /**
      * List of filter aliases that should run on any
      * before or after URI patterns.

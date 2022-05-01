@@ -59,35 +59,23 @@
                 <div class="brand-logo">
                     <img src="<?php echo site_url('admin/')?>images/logo.svg" alt="logo">
                 </div>
-                <h4>Olá, seja bem vindo(a)!</h4>
-                <h6 class="font-weight-light">por favor preencha os campos para cotinuar.</h6>
+                <h4><?php echo $titulo; ?></h4>
+                <h6 class="font-weight-light">por favor preencha os campos para recuperar a senha.</h6>
 
-                <?php echo form_open('login/criar'); ?>
+                <?php echo form_open('password/processaesqueci'); ?>
 
                     <div class="form-group">
                     <input type="email" name="email" value="<?php echo old('email'); ?>" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Digite o email">
                     </div>
 
-                    <div class="form-group">
-                    <input type="password" name="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Digite a senha">
-                    </div>
-
+                  
                     <div class="mt-3">
-                    <button type="submit" class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn"> Entrar </button>
+                    <input id="btn-reset-senha" type="submit" class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" value="Recuperar senha"> 
                     </div>
                     <div class=" mt-3 my-2 d-flex justify-content-between align-items-center">
-                        <a href="<?php echo site_url('password/esqueci') ?>" class="auth-link text-black">Esqueci a senha!</a>
+                        <a href="<?php echo site_url('login') ?>" class="auth-link text-black">Lembrei da senha!</a>
                     </div>
                 
-                    <div class="mb-2 mt-3">
-                    <button type="button" class="btn btn-block btn-facebook auth-form-btn">
-                        <i class="mdi mdi-facebook mr-2"></i>Entrar usando facebook
-                    </button>
-                    </div>
-
-                    <div class="text-center mt-4 font-weight-light">
-                    Você ainda não tem conta? <a href="<?php echo site_url('registrar');?>" class="text-primary">Criar conta</a>
-                    </div>
                     <?php echo form_close(); ?>
                 </div>
             </div>
@@ -102,5 +90,15 @@
 
 
 <?php echo $this->section('scripts') ?>
-  <!-- Aqui enviamos os scripts para o template principal -->
+
+   <script>
+        $("form").submit(function(){
+            
+            $(this).find(":submit").attr('disabled', 'disabled');
+
+            $("#btn-reset-senha").val("Enviando e-mail de recuperação... ");
+
+        });
+   </script>                 
+   
 <?php echo $this->endsection() ?>
