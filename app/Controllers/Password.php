@@ -56,8 +56,50 @@ class Password extends BaseController{
 
         $usuario = $this->usuarioModel->buscaUsuarioParaResetarSenha($token);
 
-        dd($usuario);
+        if($usuario != null){
+            $data = [
+                'titulo' => 'Redefina sua senha',
+                'token'  => $token,
+            ];
+            return view('password/reset', $data);
+        }else{
+            return redirect()
+                ->to(site_url('password/esqueci'))
+                ->with('atencao', 'Link expirado ou e-email invalido');
+        }
+    }
 
+    public function processaReset($token = null){
+        if($token === null){
+            return redirect()->to(site_url('password/esqueci'))->with('atencao', 'Link expirado ou e-email invalido');
+        }
+
+        $usuario = $this->usuarioModel->buscaUsuarioParaResetarSenha($token);
+
+        if($usuario != null){
+            
+            $usuario->fill($this->request->getPost());
+
+            if($this->usuarioModel->save($usuario)){
+
+                // Tornamos os campos null novamente no banco (reset_hash e reset-expira_em) através do método completaPasswordReset
+                $usuario->completaPasswordReset();
+                $this->usuarioModel->save($usuario);
+
+                return redirect()->to(site_url("login"))->with('sucesso', 'Nova senha cadastrada com sucesso!');
+            }else{
+                return redirect()
+                    ->to(site_url("password/reset/$token"))
+                    ->with('errors_model', $this->usuarioModel->errors())
+                    ->with('atencao', 'Por favor verifique os errors abaixo')
+                    ->withInput();
+            }
+            
+        }else{
+            return redirect()
+                ->to(site_url('password/esqueci'))
+                ->with('atencao', 'Link expirado ou e-email invalido');
+        }
     }
 
     private function enviaEmailRedefinicaoSenha(object $usuario){
