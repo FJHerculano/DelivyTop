@@ -133,7 +133,7 @@ class Usuarios extends BaseController
             if($usuario->deletado_em != null){
                 return redirect()
                         ->back()
-                        ->with('info', "O usuário $usuario->nome encontra-se excludio no momento. Portanto, não é possível editá-lo");
+                        ->with('info', "O usuário $usuario->nome encontra-se excluida no momento. Portanto, não é possível editá-lo");
             }
 
             $post = $this->request->getPost();
@@ -177,7 +177,7 @@ class Usuarios extends BaseController
         if($usuario->deletado_em != null){
             return redirect()
                     ->back()
-                    ->with('info', "O usuário $usuario->nome encontra-se excludio no momento. Portanto, não é possível editá-lo");
+                    ->with('info', "O usuário $usuario->nome encontra-se excludio no momento. Portanto, não é possível excluir");
         }
 
         if($usuario->is_admin){

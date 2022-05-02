@@ -25,8 +25,11 @@ class CategoriaModel extends Model
 
     protected $validationMessages = [
         'nome'        => [
-            'required' => 'Desculpe. Campo nome é obrigatório.',
+            'required' => 'Desculpe. O campo nome é obrigatorio.',
+            'is_unique' => 'Desculpe. Esta categoria já existe.',
+
         ],
+   
    
     ];
 
@@ -43,5 +46,31 @@ class CategoriaModel extends Model
 
         return $data;
     }
+
+     /**
+     * @uso Controller categorias no método procurar com o autocomplete
+     * @param string $term
+     * @return array categorias
+     */
+    public function procurar($term){
+
+        if($term === null){
+            return[];
+        }
+
+        return $this->select('id,nome')
+                    ->like('nome', $term)
+                    ->withDeleted(true)
+                    ->get()
+                    ->getResult();
+    }
+
+    public function desfazerExclusao(int $id){
+        return $this->protect(false)
+                ->where('id', $id)
+                ->set('deletado_em', null)
+                ->update();
+    }
+
 
 }

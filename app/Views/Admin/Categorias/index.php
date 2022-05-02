@@ -40,6 +40,7 @@
                   <th>Nome</th>
                   <th>Data de criação</th>
                   <th>Ativo</th>
+                  <th>Situação</th>
                 </tr>
               </thead>
               <tbody>
@@ -53,7 +54,7 @@
                     </a>
                   </td>
                   <td><?php echo $categoria->criado_em->humanize(); ?></td>
-                  <td><?php echo $categoria->cpf?></td>
+                 
                   <td><?php echo ($categoria->ativo && $categoria->deletado_em == null ? '<label class="badge badge-primary">Ativo</label>' :' <label class="badge badge-warning">Desativado</label>') ?></td>
                   <td>
 
@@ -115,7 +116,7 @@
 
                 var data = [
                   {
-                    label:'Usuario não encontrado',
+                    label:'Categoria não encontrado',
                     value: -1
                   }
                 ];
