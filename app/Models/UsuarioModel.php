@@ -19,6 +19,7 @@ class UsuarioModel extends Model
     protected $dateFormat     = 'datetime'; // para usar com $useSoftDeletes 
     protected $useSoftDeletes   = true;
     protected $deletedField         = 'deletado_em'; // Nome da coluna no banco de dados
+   
     // Validacoes
     protected $validationRules    = [
         'nome'   => 'required|min_length[3]|max_length[120]',

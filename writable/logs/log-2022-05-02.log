@@ -1110,3 +1110,62 @@ CRITICAL - 2022-05-02 01:33:23 --> Argument 1 passed to App\Controllers\Admin\Ca
 #4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
 #6 {main}
+ERROR - 2022-05-02 21:20:35 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+CRITICAL - 2022-05-02 21:20:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+#0 C:\xampp\htdocs\food\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '22')
+#4 C:\xampp\htdocs\food\app\Libraries\Autenticacao.php(68): CodeIgniter\BaseModel->find('22')
+#5 C:\xampp\htdocs\food\app\Libraries\Autenticacao.php(43): App\Libraries\Autenticacao->pegaUsuarioDaSessao()
+#6 C:\xampp\htdocs\food\app\Libraries\Autenticacao.php(58): App\Libraries\Autenticacao->pegaUsuarioLogado()
+#7 C:\xampp\htdocs\food\app\Filters\LoginFilter.php(29): App\Libraries\Autenticacao->estaLogado()
+#8 C:\xampp\htdocs\food\system\Filters\Filters.php(173): App\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#9 C:\xampp\htdocs\food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/home', 'before')
+#10 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-02 21:23:37 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+CRITICAL - 2022-05-02 21:23:37 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+#0 C:\xampp\htdocs\food\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '22')
+#4 C:\xampp\htdocs\food\app\Libraries\Autenticacao.php(68): CodeIgniter\BaseModel->find('22')
+#5 C:\xampp\htdocs\food\app\Libraries\Autenticacao.php(43): App\Libraries\Autenticacao->pegaUsuarioDaSessao()
+#6 C:\xampp\htdocs\food\app\Libraries\Autenticacao.php(58): App\Libraries\Autenticacao->pegaUsuarioLogado()
+#7 C:\xampp\htdocs\food\app\Filters\VisitanteFilter.php(31): App\Libraries\Autenticacao->estaLogado()
+#8 C:\xampp\htdocs\food\system\Filters\Filters.php(173): App\Filters\VisitanteFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#9 C:\xampp\htdocs\food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('login', 'before')
+#10 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-02 21:23:43 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+CRITICAL - 2022-05-02 21:23:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+#0 C:\xampp\htdocs\food\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '22')
+#4 C:\xampp\htdocs\food\app\Libraries\Autenticacao.php(68): CodeIgniter\BaseModel->find('22')
+#5 C:\xampp\htdocs\food\app\Libraries\Autenticacao.php(43): App\Libraries\Autenticacao->pegaUsuarioDaSessao()
+#6 C:\xampp\htdocs\food\app\Libraries\Autenticacao.php(58): App\Libraries\Autenticacao->pegaUsuarioLogado()
+#7 C:\xampp\htdocs\food\app\Filters\VisitanteFilter.php(31): App\Libraries\Autenticacao->estaLogado()
+#8 C:\xampp\htdocs\food\system\Filters\Filters.php(173): App\Filters\VisitanteFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#9 C:\xampp\htdocs\food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('login', 'before')
+#10 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-02 21:34:59 --> Table 'food.migrations' doesn't exist in engine
+ERROR - 2022-05-02 21:36:31 --> Tablespace for table '`food`.`migrations`' exists. Please DISCARD the tablespace before IMPORT
