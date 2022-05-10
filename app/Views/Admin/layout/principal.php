@@ -187,8 +187,15 @@
 
           <li class="nav-item">
             <a class="nav-link" href="<?php echo site_url('admin/extras');?>">
-              <i class="mdi mdi-account-settings menu-icon"></i>
+              <i class="mdi mdi-food menu-icon"></i>
               <span class="menu-title">Extras de produtos</span>
+            </a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="<?php echo site_url('admin/medidas');?>">
+              <i class="mdi mdi-food menu-icon"></i>
+              <span class="menu-title">Medidas do produto</span>
             </a>
           </li>
           

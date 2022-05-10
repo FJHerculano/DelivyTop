@@ -97,7 +97,6 @@ class Categorias extends BaseController{
 
         $categoria = $this->buscaCategoriaOu404($id);
 
-
         $data = [
             
             'titulo' => "Detalhando a categoria $categoria->nome",

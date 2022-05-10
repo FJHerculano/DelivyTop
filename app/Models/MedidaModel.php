@@ -4,12 +4,12 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class ExtraModel extends Model
+class MedidaModel extends Model
 {
-    protected $table            = 'extras';
-    protected $returnType       = 'App\Entities\Extra';
+    protected $table            = 'medidas';
+    protected $returnType       = 'App\Entities\Medida';
     protected $useSoftDeletes   = true;
-    protected $allowedFields    = ['nome', 'slug', 'preco', 'descricao' ,'ativo'];
+    protected $allowedFields    = ['nome', 'descricao' ,'ativo'];
 
     // Dates
     protected $useTimestamps = true;
@@ -20,35 +20,22 @@ class ExtraModel extends Model
 
        // Validacoes
     protected $validationRules    = [
-        'nome'   => 'required|min_length[2]|max_length[120]|is_unique[extras.nome]',
+        'nome'   => 'required|min_length[2]|max_length[120]|is_unique[medidas.nome]',
 
     ];
 
     protected $validationMessages = [
         'nome'        => [
             'required' => 'Desculpe. O campo nome é obrigatorio.',
-            'is_unique' => 'Desculpe. Este Extra já existe.',
+            'is_unique' => 'Desculpe. Esta medida já existe.',
         ],
     ];
 
-    // Eventos callback
-    protected $beforeInsert = ['criaSlug'];
-    protected $beforeUpdate = ['criaSlug'];
-
-    protected function criaSlug(array $data){
-        if(isset($data['data']['nome'])){
-
-            $data['data']['slug'] = mb_url_title($data['data']['nome'], '-', TRUE);
-
-        }
-
-        return $data;
-    }
-
+    
          /**
-     * @uso Controller categorias no método procurar com o autocomplete
+     * @uso Controller medidas no método procurar com o autocomplete
      * @param string $term
-     * @return array categorias
+     * @return array medidas
      */
     public function procurar($term){
 
@@ -70,5 +57,4 @@ class ExtraModel extends Model
                 ->update();
     }
 
- 
 }

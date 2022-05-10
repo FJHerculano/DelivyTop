@@ -1,4 +1,4 @@
-<?php echo $this->extend('Admin/layout/principal') ?> 
+0<?php echo $this->extend('Admin/layout/principal') ?> 
 
 <?php echo $this->section('titulo') ?> <?php echo $titulo; ?> <?php echo $this->endsection() ?>
 

@@ -23,64 +23,59 @@
         <div class="card-body">
             <p class="card-text">
                 <span class="font-weight-bold">Nome: </span>
-                <?php echo esc($extra->nome) ?>
-            </p>
-
-            <p class="card-text">
-                <span class="font-weight-bold">Slug da extra: </span>
-                <?php echo esc($extra->slug) ?>
+                <?php echo esc($medida->nome) ?>
             </p>
 
             <p class="card-text">
                 <span class="font-weight-bold">Ativo: </span>
-                <?php echo $extra->ativo ? 'Sim' : 'Não' ?>
+                <?php echo $medida->ativo ? 'Sim' : 'Não' ?>
             </p>
 
           
             <p class="card-text">
                 <span class="font-weight-bold">Criado: </span>
-                <?php echo ($extra->criado_em->humanize()); ?>
+                <?php echo ($medida->criado_em->humanize()); ?>
             </p>
 
-            <?php if($extra->deletado_em == null): ?>
+            <?php if($medida->deletado_em == null): ?>
 
               <p class="card-text">
                 <span class="font-weight-bold">Atualizado: </span>
-                <?php echo ($extra->atualizado_em->humanize()); ?>
+                <?php echo ($medida->atualizado_em->humanize()); ?>
               </p>
             
             <?php else: ?>
               <p class="card-text">
                 <span class="font-weight-bold text-danger">Excluído: </span>
-                <?php echo ($extra->deletado_em->humanize()); ?>
+                <?php echo ($medida->deletado_em->humanize()); ?>
               </p>
             <?php endif; ?>
               
 
-            <div class="mt-4">
+            <div class="mt-4"> 
 
-            <?php if($extra->deletado_em == null): ?>
+            <?php if($medida->deletado_em == null): ?>
 
-              <a href="<?php echo site_url("admin/extras/editar/$extra->id"); ?>" class="btn btn-dark btn-sm mr-2">
+              <a href="<?php echo site_url("admin/medidas/editar/$medida->id"); ?>" class="btn btn-dark btn-sm mr-2">
                     Editar
                     <i class="mdi mdi-pencil btn-icon-prepend"></i>
               </a>
               
-              <a href="<?php echo site_url("admin/extras/excluir/$extra->id"); ?>" class="btn btn-danger btn-sm mr-2">
+              <a href="<?php echo site_url("admin/medidas/excluir/$medida->id"); ?>" class="btn btn-danger btn-sm mr-2">
                     Excluir
                     <i class="mdi mdi-trash-can btn-icon-prepend"></i>
               </a>
               
-              <a href="<?php echo site_url("admin/extras"); ?>" class="btn btn-light btn-sm border-dark">
+              <a href="<?php echo site_url("admin/medidas"); ?>" class="btn btn-light btn-sm border-dark">
                     voltar
                     <i class="mdi mdi-arrow-left btn-icon-prepend"></i>
               </a>
             <?php else: ?>
-              <a href="<?php echo site_url("admin/extras"); ?>" class="btn btn-light btn-sm border-dark mr-2">
+              <a href="<?php echo site_url("admin/medidas"); ?>" class="btn btn-light btn-sm border-dark mr-2">
                     voltar
                     <i class="mdi mdi-arrow-left btn-icon-prepend"></i>
               </a>
-              <a href="<?php echo site_url("admin/extras/desfazerexclusao/$extra->id"); ?>" class="btn btn-dark btn-sm ">
+              <a href="<?php echo site_url("admin/medidas/desfazerexclusao/$medida->id"); ?>" class="btn btn-dark btn-sm ">
                 Desfazer exclusão
                 <i class="mdi mdi-undo btn-icon-prepend"></i>
               </a>   

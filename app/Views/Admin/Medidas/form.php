@@ -4,21 +4,15 @@
     <div class="form-group col-md-6">
         <label for="nome">Nome</label>
         <input type="text" class="form-control" name="nome" id="nome" 
-               value="<?php echo old('nome', esc($extra->nome)); ?>">
-    </div>   
-
-    <div class="form-group col-md-6">
-        <label for="preco">Preço</label>
-        <input type="text" class="money form-control" name="preco" id="preco" 
-               value="<?php echo old('preco', esc($extra->preco)); ?>">
+               value="<?php echo old('nome', esc($medida->nome)); ?>">
     </div>       
     
     <div class="form-group col-md-12">
         <label for="descricao">Descricao</label>
-        <textarea name="descricao" id="descricao" class="form-control" rows="3"><?php echo old('descricao', esc($extra->descricao)); ?></textarea>
+        <textarea name="descricao" id="descricao" class="form-control" rows="3"><?php echo old('descricao', esc($medida->descricao)); ?></textarea>
     </div>   
 
-</div>
+</div> 
 
 
 <div class="form-check form-check-flat form-check-primary mb-3">
@@ -27,7 +21,7 @@
         <input type="hidden" name="ativo" value="0">
 
         <input class="form-check-input" type="checkbox" id="ativo"  name="ativo" 
-               value="1" <?php if(old('ativo', $extra->ativo)): ?> checked="" <?php endif; ?>>
+               value="1" <?php if(old('ativo', $medida->ativo)): ?> checked="" <?php endif; ?>>
         Ativo
     </label>
 </div>  

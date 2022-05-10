@@ -4,7 +4,7 @@ namespace App\Entities;
 
 use CodeIgniter\Entity\Entity;
 
-class Extra extends Entity
+class Medida extends Entity
 {
     protected $dates   = [
         'criado_em', 

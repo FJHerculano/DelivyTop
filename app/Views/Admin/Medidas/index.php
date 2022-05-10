@@ -21,11 +21,11 @@
           <h4 class="card-title"><?php echo $titulo ?></h4>
 
           <div class="ui-widget">
-            <input id="query" name="query" placeholder="Pesquise por um extra de produto" class="form-control bg-light mb-5 border-dark"  >
+            <input id="query" name="query" placeholder="Pesquise por uma medida de produto" class="form-control bg-light mb-5 border-dark"  >
           </div>
 
                     
-          <a href="<?php echo site_url("admin/extras/criar"); ?>" class="btn btn-success float-right mb-5">
+          <a href="<?php echo site_url("admin/medidas/criar"); ?>" class="btn btn-success float-right mb-5">
               Cadastrar
               <i class="mdi mdi-plus btn-icon-prepend"></i>
           </a>
@@ -35,7 +35,6 @@
               <thead>
                 <tr>
                   <th>Nome</th>
-                  <th>Preço</th>
                   <th>Data de criação</th>
                   <th>Ativo</th>
                   <th>Situação</th>
@@ -43,24 +42,23 @@
               </thead>
               <tbody>
 
-                <?php foreach($extras as $extra): ?>
+                <?php foreach($medidas as $medida): ?>
 
                   <tr>
                   <td>
-                    <a href="<?php echo site_url("admin/extras/show/$extra->id"); ?>"><?php echo $extra->nome?></a>
+                    <a href="<?php echo site_url("admin/medidas/show/$medida->id"); ?>"><?php echo $medida->nome?></a>
                   </td>
 
-                  <td>R$&nbsp;<?php echo esc(number_format($extra->preco, 2)); ?></td>
-                  <td><?php echo $extra->criado_em->humanize(); ?></td>
+                  <td><?php echo $medida->criado_em->humanize(); ?></td>
                  
-                  <td><?php echo ($extra->ativo && $extra->deletado_em == null ? '<label class="badge badge-primary">Ativo</label>' :' <label class="badge badge-warning">Desativado</label>') ?></td>
+                  <td><?php echo ($medida->ativo && $medida->deletado_em == null ? '<label class="badge badge-primary">Ativo</label>' :' <label class="badge badge-warning">Desativado</label>') ?></td>
                   <td>
 
-                    <?php echo ($extra->deletado_em === null ? '<label class="badge badge-success">Disponivel</label>' : ' <label class="badge badge-danger">Excluido</label>') ?>
+                    <?php echo ($medida->deletado_em === null ? '<label class="badge badge-success">Disponivel</label>' : ' <label class="badge badge-danger">Excluido</label>') ?>
                    
-                    <?php if($extra->deletado_em !== null): ?>
+                    <?php if($medida->deletado_em !== null): ?>
 
-                      <a href="<?php echo site_url("admin/extras/desfazerexclusao/$extra->id"); ?>" class="badge badge-dark ml-2">
+                      <a href="<?php echo site_url("admin/medidas/desfazerexclusao/$medida->id"); ?>" class="badge badge-dark ml-2">
                           Desfazer
                           <i class="mdi mdi-undo btn-icon-prepend"></i>
                       </a>                              
@@ -103,7 +101,7 @@
         source: function(request, response){
           $.ajax({
 
-            url: "<?php echo site_url('admin/extras/procurar'); ?>",
+            url: "<?php echo site_url('admin/medidas/procurar'); ?>",
             dataType:"json",
             data:{
               term: request.term
@@ -114,7 +112,7 @@
 
                 var data = [
                   {
-                    label:'Extra não encontrado',
+                    label:'Medida não encontrado',
                     value: -1
                   }
                 ];
@@ -136,7 +134,7 @@
 
           }else{
 
-            window.location.href = '<?php echo site_url('admin/extras/show/'); ?>' + ui.item.id;
+            window.location.href = '<?php echo site_url('admin/medidas/show/'); ?>' + ui.item.id;
 
           }
 

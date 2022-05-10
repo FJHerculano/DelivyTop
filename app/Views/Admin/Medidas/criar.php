@@ -14,7 +14,7 @@
   <!-- Aqui enviamos os conteudos para o template principal -->
   <div class="row" >
 
-    <div class="col-lg-12 grid-margin stretch-card">
+    <div class="col-lg-6 grid-margin stretch-card">
         <div class="card">
           <div class="card-header bg-primary pb-0 pt-4">
             <h4 class="card-title text-white f"><?php echo esc($titulo) ?></h4>
@@ -31,23 +31,15 @@
         <?php endif; ?>
 
         <!-- Formulario de cadastro  -->
-        <?php echo form_open("admin/extras/excluir/$extra->id"); ?>
+        <?php echo form_open("admin/medidas/cadastrar/$medida->id"); ?>
 
-         <div class="alert alert-warning alert-dismissible fade show" role="alert" >
-           <strong>Atenção</strong> Tem certeza da exclusão do extra <strong><?php echo esc($extra->nome); ?>?</strong>
-         </div>
+          <?php echo $this->include('Admin/Medidas/form'); ?>
 
-          <button type="submit" class="btn btn-danger mr-2 btn-sm">
-            <i class="mdi mdi-trash-can btn-icon-prepend"></i>
-            Excluir
-          </button>
-          
-          <a  href="<?php echo site_url("admin/extras/show/$extra->id"); ?>" 
-              class="btn btn-light btn-sm border-dark">
+          <a href="<?php echo site_url("admin/medidas/"); ?>" class="btn btn-light btn-sm border-dark">
             voltar
             <i class="mdi mdi-arrow-left btn-icon-prepend"></i>
           </a>
-
+ 
         <?php echo form_close(); ?>
 
     </div>

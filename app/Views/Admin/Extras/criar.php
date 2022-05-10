@@ -14,7 +14,7 @@
   <!-- Aqui enviamos os conteudos para o template principal -->
   <div class="row" >
 
-    <div class="col-lg-12 grid-margin stretch-card">
+    <div class="col-lg-6 grid-margin stretch-card">
         <div class="card">
           <div class="card-header bg-primary pb-0 pt-4">
             <h4 class="card-title text-white f"><?php echo esc($titulo) ?></h4>
@@ -31,11 +31,11 @@
         <?php endif; ?>
 
         <!-- Formulario de cadastro  -->
-        <?php echo form_open("admin/categorias/cadastrar/$categoria->id"); ?>
+        <?php echo form_open("admin/extras/cadastrar/$extra->id"); ?>
 
-          <?php echo $this->include('Admin/Categorias/form'); ?>
+          <?php echo $this->include('Admin/Extras/form'); ?>
 
-          <a href="<?php echo site_url("admin/categorias/"); ?>" class="btn btn-light btn-sm border-dark">
+          <a href="<?php echo site_url("admin/extras/"); ?>" class="btn btn-light btn-sm border-dark">
             voltar
             <i class="mdi mdi-arrow-left btn-icon-prepend"></i>
           </a>

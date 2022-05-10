@@ -4,8 +4,9 @@ namespace App\Database\Migrations;
 
 use CodeIgniter\Database\Migration;
 
-class CriaTabelaExtras extends Migration{
-
+class CriaTabelaMedidas extends Migration
+{
+ 
     public function up(){
         //
         $this->forge->addField([
@@ -19,16 +20,6 @@ class CriaTabelaExtras extends Migration{
             'nome' => [
                 'type' => 'VARCHAR',
                 'constraint' => '128',
-            ],
-
-            'slug' => [
-                'type' => 'VARCHAR',
-                'constraint' => '128',
-            ],
-
-            'preco' => [
-                'type' => 'DECIMAL',
-                'constraint' => '10,2',
             ],
 
             'descricao' => [
@@ -63,14 +54,15 @@ class CriaTabelaExtras extends Migration{
 
         $this->forge->addPrimaryKey('id')->addUniqueKey('nome');
 
-        $this->forge->createTable('extras');
+        $this->forge->createTable('medidas');
 
     }
 
     public function down(){
         //
-        $this->forge->dropTable('extras');
+        $this->forge->dropTable('medidas');
         
     }
     
+
 }
