@@ -4,8 +4,7 @@ namespace App\Database\Migrations;
 
 use CodeIgniter\Database\Migration;
 
-class CriaTabelaProdutos extends Migration
-{
+class CriaTabelaProdutos extends Migration{
  
     public function up(){
         //

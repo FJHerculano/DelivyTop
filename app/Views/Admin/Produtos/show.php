@@ -89,6 +89,11 @@
                     Editar
                     <i class="mdi mdi-pencil btn-icon-prepend"></i>
               </a>
+            
+              <a href="<?php echo site_url("admin/produtos/extras/$produto->id"); ?>" class="btn btn-outline-github btn-sm mr-2">
+                    Extras
+                    <i class="mdi mdi-pencil btn-icon-prepend"></i>
+              </a>
               
               <a href="<?php echo site_url("admin/produtos/excluir/$produto->id"); ?>" class="btn btn-danger btn-sm mr-2">
                     Excluir

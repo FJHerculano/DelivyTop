@@ -371,8 +371,8 @@
   <!-- End custom js for this page-->
   <script src="<?php echo site_url('admin/')?>js/jquery.cookie.js" type="text/javascript"></script>
 
-    <!-- Essa section renderizará os scripts especificos da view que estender esse layout -->
-    <?php echo $this->renderSection('scripts') ?> 
+  <!-- Essa section renderizará os scripts especificos da view que estender esse layout -->
+  <?php echo $this->renderSection('scripts') ?> 
 
 </body>
 
