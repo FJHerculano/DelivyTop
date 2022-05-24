@@ -69,7 +69,7 @@
         <div class="form-row">
           <div class="col-md-8">
 
-            <?php if(empty($produtosExtras)): ?>
+            <?php if(empty($produtoExtras)): ?>
               <p>Esse produto não possui extras até o momento</p>
 
             <?php else: ?>
@@ -87,7 +87,7 @@
                       </thead>
                       <tbody>
 
-                      <?php foreach($produtosExtras as $extraProduto): ?>
+                      <?php foreach($produtoExtras as $extraProduto): ?>
 
                         <tr>
                           <td><?php echo esc($extraProduto->extra); ?></td>

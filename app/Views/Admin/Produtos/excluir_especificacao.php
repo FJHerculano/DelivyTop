@@ -31,10 +31,10 @@
         <?php endif; ?>
 
         <!-- Formulario de cadastro  -->
-        <?php echo form_open("admin/produtos/excluir/$produto->id"); ?>
+        <?php echo form_open("admin/produtos/excluirespecificacao/$especificacao->id/$especificacao->produto_id"); ?>
 
          <div class="alert alert-warning alert-dismissible fade show" role="alert" >
-           <strong>Atenção</strong> Tem certeza da exclusão do produto <strong><?php echo esc($produto->nome); ?>?</strong>
+           <strong>Atenção</strong> Tem certeza da exclusão da especificação do produto ?</strong>
          </div>
 
           <button type="submit" class="btn btn-danger mr-2 btn-sm">
@@ -42,7 +42,7 @@
             Excluir
           </button>
           
-          <a  href="<?php echo site_url("admin/produtos/show/$produto->id"); ?>" 
+          <a  href="<?php echo site_url("admin/produtos/especificacoes/$especificacao->produto_id"); ?>" 
               class="btn btn-light btn-sm border-dark">
             voltar
             <i class="mdi mdi-arrow-left btn-icon-prepend"></i>

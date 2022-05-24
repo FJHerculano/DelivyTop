@@ -24,22 +24,26 @@
 
             <div class="text-center">
               
-              <?php if($produto->imagem): ?>
+              <?php if($produto->imagem && $produto->deletado_em == null): ?>
                   <img class="card-img-top w-75" src="<?php echo site_url("admin/produtos/imagem/$produto->imagem"); ?>" alt="<?php echo esc($produto->nome); ?>">
               <?php else: ?>
                   <img class="card-img-top border border-secondary w-75 "  src="<?php echo site_url('admin/images/produto-padrao.jpg'); ?>" alt="Produto sem imagem por enquanto">
               <?php endif; ?>
             
             </div>
-            <div class="text-center">
-              <a href="<?php echo site_url("admin/produtos/editarimagem/$produto->id"); ?>" class="btn btn-outline-dark btn-sm mb-2 mt-2">
-                  Cadastrar imagem
+
+            <?php if($produto->deletado_em == null): ?>
+              
+              <div class="text-center">
+                <a href="<?php echo site_url("admin/produtos/editarimagem/$produto->id"); ?>" class="btn btn-outline-dark btn-sm mb-2 mt-2">
+                  Editar imagem
                   <i class="mdi mdi-image btn-icon-prepend"></i>
-              </a>
-            </div>
-      
+                </a>
+              </div>
             <hr>
  
+            <?php endif; ?>
+           
             <p class="card-text">
                 <span class="font-weight-bold">Nome: </span>
                 <?php echo esc($produto->nome) ?>
@@ -92,6 +96,11 @@
             
               <a href="<?php echo site_url("admin/produtos/extras/$produto->id"); ?>" class="btn btn-outline-github btn-sm mr-2">
                     Extras
+                    <i class="mdi mdi-pencil btn-icon-prepend"></i>
+              </a>
+
+              <a href="<?php echo site_url("admin/produtos/especificacoes/$produto->id"); ?>" class="btn btn-outline-warning btn-sm mr-2">
+                    Especificações
                     <i class="mdi mdi-pencil btn-icon-prepend"></i>
               </a>
               
