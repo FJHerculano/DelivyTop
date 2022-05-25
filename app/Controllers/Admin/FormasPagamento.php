@@ -3,6 +3,7 @@
 namespace App\Controllers\Admin;
 
 use App\Controllers\BaseController;
+use App\Entities\FormaPagamento;
 
 class FormasPagamento extends BaseController{
 
@@ -61,6 +62,28 @@ class FormasPagamento extends BaseController{
 
         return view('Admin/formasPagamento/criar', $data);
     }
+    
+    public function cadastrar(){
+        if($this->request->getMethod() === 'post'){
+
+            $formaPagamento = new FormaPagamento($this->request->getPost());
+
+            if($this->formaPagamentoModel->save($formaPagamento)){
+
+                return redirect()->to(site_url("admin/formas/show/" . $this->formaPagamentoModel->getInsertID()))
+                                ->with('sucesso', "Forma de pagamento $formaPagamento->nome cadastrada com sucesso");
+
+            }else{
+                return redirect()->back()
+                                ->with('errors_model', $this->formaPagamentoModel->errors())
+                                ->with('atencao', 'Por favor verifique os erros abaixo')
+                                ->withInput();
+            }
+
+        }else{
+            return redirect()->back();
+        }
+    }
 
     public function show ($id = null){
         $formaPagamento = $this->buscaFormaPagamentoOu404($id);
@@ -71,7 +94,7 @@ class FormasPagamento extends BaseController{
         ];
 
         return view('Admin/formasPagamento/show', $data);
-    }      
+    }       
 
     public function editar ($id = null){
         $formaPagamento = $this->buscaFormaPagamentoOu404($id);
@@ -112,6 +135,56 @@ class FormasPagamento extends BaseController{
             return redirect()->back();
         }
     }
+
+    
+
+    public function excluir($id = null){
+
+        $formaPagamento = $this->buscaFormaPagamentoOu404($id); 
+        
+        if($formaPagamento->deletado_em != null){
+            return redirect()
+                    ->back()
+                    ->with('info', "A forma de pagamento $extra->nome encontra-se excluida no momento. ");
+        }
+
+        if($this->request->getMethod() === 'post'){
+            $this->formaPagamentoModel->delete($id);
+            return redirect()->to(site_url('admin/formas'))
+            ->with('sucesso', "Forma de pagamento $formaPagamento->nome excluida com sucesso!");
+        }
+
+        $data = [
+            
+            'titulo' => "Excluindo a forma de pagamento $formaPagamento->nome",
+            'forma' => $formaPagamento,
+
+        ];
+
+        return view('Admin/FormasPagamento/excluir', $data);
+    }
+
+    
+    public function desfazerExclusao($id = null){
+
+        $formaPagamento = $this->buscaFormaPagamentoOu404($id);
+        if($formaPagamento->deletado_em == null){
+            return redirect()->back()->with('info', 'Apenas formas excluídas podem ser recuperadas');
+        }
+
+        if($this->formaPagamentoModel->desfazerExclusao($id)){
+            return redirect()
+                    ->back()
+                    ->with('sucesso', 'A exclusão foi desfeita, forma de pagamento recadastrada na sistema');
+        }else{
+            return redirect()->back()
+                ->with('errors_model', $this->extraModel->errors())
+                ->with('atencao', 'Por favor verifique os erros abaixo')
+                ->withInput();
+        }
+    }
+
+
 
       /**
      *  
