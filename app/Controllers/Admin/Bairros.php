@@ -160,11 +160,14 @@ class Bairros extends BaseController{
 
         $consulta = consultaCep($cep);
 
+        if(isset($consulta->erro) && !isset($consulta->cep)){
+            $retorno['erro'] = '<span class="text-danger small" >CEP inválido </span>';
 
+            return $this->response->setJSON($retorno);
+        }
 
-        echo '<pre>';
-        print_r($consulta);
-        die; 
+        $retorno['endereco'] = $consulta;
+        return $this->response->setJSON($retorno);
     }
     
       /**

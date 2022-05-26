@@ -91,6 +91,8 @@
             $('[name=estado]').val(response.endereco.uf);
 
             $("#btn-salvar").prop('disabled', false);
+            $("#cep").html('');
+
 
           }else{
             // Houve erro de validação 
