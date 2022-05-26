@@ -3713,3 +3713,24 @@ CRITICAL - 2022-05-26 03:09:20 --> Undefined property: CodeIgniter\Validation\Va
 #4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
 #6 {main}
+CRITICAL - 2022-05-26 03:28:06 --> Call to undefined function App\Controllers\Admin\consultaCep()
+#0 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->consultaCep()
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-26 03:28:18 --> Call to undefined function App\Controllers\Admin\consultaCep()
+#0 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->consultaCep()
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-26 03:29:58 --> Call to undefined function App\Controllers\Admin\consultaCep()
+#0 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->consultaCep()
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

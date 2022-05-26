@@ -152,8 +152,18 @@ class Bairros extends BaseController{
             return $this->response->setJSON($retorno);
         }
 
+        // cep formatado
+        $cep = str_replace('-', '', $this->request->getGet('cep'));
+
+        // Carregando o Helper
+        helper('consulta_cep');
+
+        $consulta = consultaCep($cep);
+
+
+
         echo '<pre>';
-        print_r($this->request->getGet());
+        print_r($consulta);
         die; 
     }
     
