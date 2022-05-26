@@ -31,11 +31,11 @@
         <?php endif; ?>
 
         <!-- Formulario de cadastro  -->
-        <?php echo form_open("admin/entregadores/cadastrar/$entregador->id"); ?>
+        <?php echo form_open("admin/bairros/atualizar/$bairro->id"); ?>
 
-          <?php echo $this->include('Admin/Entregadores/form'); ?>
+          <?php echo $this->include('Admin/Bairros/form'); ?>
 
-          <a href="<?php echo site_url("admin/entregadores/"); ?>" class="btn btn-light btn-sm border-dark">
+          <a href="<?php echo site_url("admin/bairros/show/$bairro->id"); ?>" class="btn btn-light btn-sm border-dark">
             voltar
             <i class="mdi mdi-arrow-left btn-icon-prepend"></i>
           </a>

@@ -66,7 +66,7 @@ class Extras extends BaseController{
         return view('Admin/Extras/criar', $data);
     }
 
-    public function cadastrar($id = null){
+    public function cadastrar(){
 
         if($this->request->getMethod() === 'post'){
             $extra = new Extra($this->request->getPost());

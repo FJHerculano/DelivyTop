@@ -31,11 +31,19 @@
         <?php endif; ?>
 
         <!-- Formulario de cadastro  -->
-        <?php echo form_open("admin/entregadores/cadastrar/$entregador->id"); ?>
+        <?php echo form_open("admin/extras/excluir/$extra->id"); ?>
 
-          <?php echo $this->include('Admin/Entregadores/form'); ?>
+         <div class="alert alert-warning alert-dismissible fade show" role="alert" >
+           <strong>Atenção</strong> Tem certeza da exclusão do extra <strong><?php echo esc($extra->nome); ?>?</strong>
+         </div>
 
-          <a href="<?php echo site_url("admin/entregadores/"); ?>" class="btn btn-light btn-sm border-dark">
+          <button type="submit" class="btn btn-danger mr-2 btn-sm">
+            <i class="mdi mdi-trash-can btn-icon-prepend"></i>
+            Excluir
+          </button>
+          
+          <a  href="<?php echo site_url("admin/extras/show/$extra->id"); ?>" 
+              class="btn btn-light btn-sm border-dark">
             voltar
             <i class="mdi mdi-arrow-left btn-icon-prepend"></i>
           </a>
