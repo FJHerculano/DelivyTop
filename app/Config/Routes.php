@@ -48,6 +48,8 @@ $routes->group('admin', function($routes){
     $routes->post('formas/cadastrar', 'Admin\FormasPagamento::cadastrar');
     //para metodos get e post 
     $routes->match(['get', 'post'], 'formas/excluir/(:num)', 'Admin\FormasPagamento::excluir/$1');
+
+    $routes->match(['get', 'post'], 'expedientes', 'Admin\Expedientes::expedientes');
 });
 
 /*

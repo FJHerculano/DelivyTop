@@ -3,28 +3,24 @@
 namespace App\Controllers;
 
 class Home extends BaseController{
-    public function index()
-    {
-        return view('welcome_message');
-    }
 
-    public function email(){
-        $email = \Config\Services::email();
+    public function __construct(){
 
-        $email->setFrom('your@example.com', 'Herculano');
-        $email->setTo('herculano@aluno.fapce.edu.br');
-        // $email->setCC('another@another-example.com');
-        // $email->setBCC('them@their-example.com');
-
-        $email->setSubject('Email Test');
-        $email->setMessage('é muito massa e tranquilo enviar email com codeigniter 4.');
-
-        if($email->send()){
-            echo 'Email enviado';
-        }else{
-            echo $email->printDebugger();
-        }
+        $this->categoriaModel = new \App\Models\CategoriaModel();
+        $this->produtoModel = new \App\Models\ProdutoModel();
 
     }
+    public function index(){
+
+        $data = [
+            'titulo' => 'Seja muito bem vindo(a)!',
+            'categorias' => $this->categoriaModel->buscaCategoriasWebHome(),
+            'produtos' => $this->produtoModel->buscaProdutosWebHome(),
+        ];
+
+        return view('Home/index', $data);
+
+    }
+
 
 }

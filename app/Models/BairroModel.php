@@ -23,6 +23,7 @@ class BairroModel extends Model
     // Validacoes
     protected $validationRules    = [
         'nome'   => 'required|min_length[2]|max_length[120]|is_unique[bairros.nome]',
+        'cidade'   => 'required|equals[Juazeiro do Norte]',
         'valor_entrega' => 'required',
     ];
 
@@ -33,6 +34,9 @@ class BairroModel extends Model
         ],
         'valor_entrega'        => [
             'required' => 'Desculpe. O campo valor da entrega  é obrigatorio.',
+        ], 
+        'cidade'        => [
+            'equals' => 'Desculpe. O cep deverá ser de Juazeiro do Norte - CE.',
         ],
    
    

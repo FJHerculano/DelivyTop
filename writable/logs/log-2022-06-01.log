@@ -1,0 +1,156 @@
+CRITICAL - 2022-06-01 00:52:11 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php on line 109
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php(109): App\Controllers\Admin\Produtos->buscaProdutoOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Produtos->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-01 00:52:11 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php on line 109
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php(109): App\Controllers\Admin\Produtos->buscaProdutoOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Produtos->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-01 00:52:11 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php on line 109
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php(109): App\Controllers\Admin\Produtos->buscaProdutoOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Produtos->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-01 00:52:11 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php on line 109
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php(109): App\Controllers\Admin\Produtos->buscaProdutoOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Produtos->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-01 00:52:11 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php on line 109
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php(109): App\Controllers\Admin\Produtos->buscaProdutoOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Produtos->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-01 00:52:11 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php on line 109
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php(109): App\Controllers\Admin\Produtos->buscaProdutoOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Produtos->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-01 00:52:13 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php on line 345
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php(345): App\Controllers\Admin\Produtos->buscaProdutoOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Produtos->especificacoes('images', 'logo.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-01 00:52:13 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php on line 345
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php(345): App\Controllers\Admin\Produtos->buscaProdutoOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Produtos->especificacoes('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-01 00:52:13 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php on line 345
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php(345): App\Controllers\Admin\Produtos->buscaProdutoOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Produtos->especificacoes('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-01 00:52:13 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php on line 345
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php(345): App\Controllers\Admin\Produtos->buscaProdutoOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Produtos->especificacoes('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-01 00:52:13 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php on line 345
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php(345): App\Controllers\Admin\Produtos->buscaProdutoOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Produtos->especificacoes('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-01 00:52:13 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php on line 345
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php(345): App\Controllers\Admin\Produtos->buscaProdutoOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Produtos->especificacoes('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-01 00:52:16 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php on line 109
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php(109): App\Controllers\Admin\Produtos->buscaProdutoOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Produtos->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-01 00:52:16 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php on line 109
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php(109): App\Controllers\Admin\Produtos->buscaProdutoOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Produtos->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-01 00:52:16 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php on line 109
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php(109): App\Controllers\Admin\Produtos->buscaProdutoOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Produtos->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-01 00:52:16 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php on line 109
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php(109): App\Controllers\Admin\Produtos->buscaProdutoOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Produtos->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-01 00:52:16 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php on line 109
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php(109): App\Controllers\Admin\Produtos->buscaProdutoOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Produtos->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-01 00:52:16 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php on line 109
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php(109): App\Controllers\Admin\Produtos->buscaProdutoOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Produtos->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-01 01:04:19 --> Undefined property: stdClass::$especificacao_id
+#0 C:\xampp\htdocs\food\app\Views\Produto\detalhes.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\food\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\food\system\Common.php(1089): CodeIgniter\View\View->render('Produto/detalhe...', Array, true)
+#4 C:\xampp\htdocs\food\app\Controllers\Produto.php(36): view('Produto/detalhe...', Array)
+#5 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Produto->detalhes('pizza-de-frango...')
+#6 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+#7 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

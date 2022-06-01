@@ -1,0 +1,290 @@
+CRITICAL - 2022-05-27 01:17:52 --> Call to undefined function App\Controllers\Admin\consulta_Cep()
+#0 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->consultaCep()
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-27 01:20:06 --> Call to undefined function App\Controllers\Admin\consulta_Cep()
+#0 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->consultaCep()
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-27 01:34:43 --> Call to undefined function App\Controllers\Admin\consultaCep()
+#0 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->consultaCep()
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-27 01:34:56 --> Call to undefined function App\Controllers\Admin\consultaCep()
+#0 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->consultaCep()
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-27 01:35:07 --> Call to undefined function App\Controllers\Admin\consultaCep()
+#0 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->consultaCep()
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-27 01:35:56 --> Call to undefined function App\Controllers\Admin\consultaCep()
+#0 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->consultaCep()
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-27 01:36:14 --> Call to undefined function App\Controllers\Admin\consultaCep()
+#0 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->consultaCep()
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-27 01:42:07 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php on line 70
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php(70): App\Controllers\Admin\Bairros->buscaBairroOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-27 01:42:07 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php on line 70
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php(70): App\Controllers\Admin\Bairros->buscaBairroOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-27 01:42:07 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php on line 70
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php(70): App\Controllers\Admin\Bairros->buscaBairroOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-27 01:42:07 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php on line 70
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php(70): App\Controllers\Admin\Bairros->buscaBairroOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-27 01:42:07 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php on line 70
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php(70): App\Controllers\Admin\Bairros->buscaBairroOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-27 01:42:07 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php on line 70
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php(70): App\Controllers\Admin\Bairros->buscaBairroOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-27 01:42:08 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php on line 84
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php(84): App\Controllers\Admin\Bairros->buscaBairroOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->editar('images', 'logo.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-27 01:42:08 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php on line 84
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php(84): App\Controllers\Admin\Bairros->buscaBairroOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->editar('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-27 01:42:08 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php on line 84
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php(84): App\Controllers\Admin\Bairros->buscaBairroOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-27 01:42:08 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php on line 84
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php(84): App\Controllers\Admin\Bairros->buscaBairroOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-27 01:42:09 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php on line 84
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php(84): App\Controllers\Admin\Bairros->buscaBairroOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-27 01:42:09 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php on line 84
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php(84): App\Controllers\Admin\Bairros->buscaBairroOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-27 01:42:12 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php on line 70
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php(70): App\Controllers\Admin\Bairros->buscaBairroOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-27 01:42:12 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php on line 70
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php(70): App\Controllers\Admin\Bairros->buscaBairroOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-27 01:42:12 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php on line 70
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php(70): App\Controllers\Admin\Bairros->buscaBairroOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-27 01:42:13 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php on line 70
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php(70): App\Controllers\Admin\Bairros->buscaBairroOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-27 01:42:13 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php on line 70
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php(70): App\Controllers\Admin\Bairros->buscaBairroOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-27 01:42:13 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php on line 70
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php(70): App\Controllers\Admin\Bairros->buscaBairroOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-27 01:42:17 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php on line 70
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php(70): App\Controllers\Admin\Bairros->buscaBairroOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-27 01:42:17 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php on line 70
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php(70): App\Controllers\Admin\Bairros->buscaBairroOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-27 01:42:17 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php on line 70
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php(70): App\Controllers\Admin\Bairros->buscaBairroOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-27 01:42:17 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php on line 70
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php(70): App\Controllers\Admin\Bairros->buscaBairroOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-27 01:42:17 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php on line 70
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php(70): App\Controllers\Admin\Bairros->buscaBairroOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-27 01:42:17 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php on line 70
+#0 C:\xampp\htdocs\food\app\Controllers\Admin\Bairros.php(70): App\Controllers\Admin\Bairros->buscaBairroOu404('images')
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#3 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-27 01:42:27 --> Call to undefined function App\Controllers\Admin\consultaCep()
+#0 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->consultaCep()
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-27 01:52:59 --> Call to undefined function App\Controllers\Admin\consultaCep()
+#0 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->consultaCep()
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-27 01:57:24 --> Call to undefined function App\Controllers\Admin\consulta_Cep()
+#0 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->consultaCep()
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-27 01:58:29 --> Call to undefined function App\Controllers\Admin\consultacep()
+#0 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->consultaCep()
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-27 01:58:56 --> Call to undefined function App\Controllers\Admin\consulta_cep()
+#0 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->consultaCep()
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-27 02:00:38 --> Call to undefined function App\Controllers\Admin\consultaCep()
+#0 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->consultaCep()
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-27 02:00:51 --> Call to undefined function App\Controllers\Admin\consultaCep()
+#0 C:\xampp\htdocs\food\system\CodeIgniter.php(832): App\Controllers\Admin\Bairros->consultaCep()
+#1 C:\xampp\htdocs\food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+#2 C:\xampp\htdocs\food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

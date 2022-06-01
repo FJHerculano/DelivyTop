@@ -64,6 +64,36 @@ class Bairros extends BaseController{
 
         return view('Admin/Bairros/criar', $data);
     }
+
+    
+    public function cadastrar(){
+
+        if($this->request->getMethod() === 'post'){
+
+
+            $bairro = new Bairro($this->request->getPost());
+
+            $bairro->valor_entrega = str_replace(",", "", $bairro->valor_entrega);
+
+
+            if($this->bairroModel->save($bairro)){
+
+                return redirect()->to(site_url("admin/bairros/show/".$this->bairroModel->getInsertId()))
+                            ->with('sucesso', "bairro $bairro->nome Cadastrado com sucesso.");
+            }else{
+
+                return redirect()->back()
+                            ->with('errors_model', $this->bairroModel->errors())
+                            ->with('atencao', 'Por favor verifique os dados abaixo')
+                            ->withInput();
+            }
+
+        }else{
+            // Não é post
+            return redirect()->back();
+        }
+    }
+
         
     public function show($id = null){
 
@@ -132,6 +162,53 @@ class Bairros extends BaseController{
         }else{
             // Não é post
             return redirect()->back();
+        }
+    }
+
+    
+
+    public function excluir($id = null){
+
+        $bairro = $this->buscaBairroOu404($id); 
+        
+        if($bairro->deletado_em != null){
+            return redirect()
+                    ->back()
+                    ->with('info', "O bairro $bairro->nome encontra-se excluido no momento. ");
+        }
+
+        if($this->request->getMethod() === 'post'){
+            $this->bairroModel->delete($id);
+            return redirect()->to(site_url('admin/bairros'))
+            ->with('sucesso', "Bairro $bairro->nome excluido com sucesso!");
+        }
+
+        $data = [
+            
+            'titulo' => "Excluindo o bairro $bairro->nome",
+            'bairro' => $bairro,
+
+        ];
+
+        return view('Admin/Bairros/excluir', $data);
+    }
+
+    public function desfazerExclusao($id = null){
+
+        $bairro = $this->buscaBairroOu404($id);
+        if($bairro->deletado_em == null){
+            return redirect()->back()->with('info', 'Apenas bairros excluídos podem ser recuperados');
+        }
+
+        if($this->bairroModel->desfazerExclusao($id)){
+            return redirect()
+                    ->back()
+                    ->with('sucesso', 'A exclusão foi desfeita, bairro recadastrado no sistema');
+        }else{
+            return redirect()->back()
+                ->with('errors_model', $this->bairroModel->errors())
+                ->with('atencao', 'Por favor verifique os erros abaixo')
+                ->withInput();
         }
     }
 

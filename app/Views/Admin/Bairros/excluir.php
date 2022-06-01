@@ -31,10 +31,10 @@
         <?php endif; ?>
 
         <!-- Formulario de cadastro  -->
-        <?php echo form_open("admin/extras/excluir/$extra->id"); ?>
+        <?php echo form_open("admin/bairros/excluir/$bairro->id"); ?>
 
          <div class="alert alert-warning alert-dismissible fade show" role="alert" >
-           <strong>Atenção</strong> Tem certeza da exclusão do extra <strong><?php echo esc($extra->nome); ?>?</strong>
+           <strong>Atenção</strong> Tem certeza da exclusão do bairro <strong><?php echo esc($bairro->nome); ?>?</strong>
          </div>
 
           <button type="submit" class="btn btn-danger mr-2 btn-sm">
@@ -42,7 +42,7 @@
             Excluir
           </button>
           
-          <a  href="<?php echo site_url("admin/extras/show/$extra->id"); ?>" 
+          <a  href="<?php echo site_url("admin/bairros/show/$bairro->id"); ?>" 
               class="btn btn-light btn-sm border-dark">
             voltar
             <i class="mdi mdi-arrow-left btn-icon-prepend"></i>

@@ -20,7 +20,7 @@ class ProdutoEspecificacaoModel extends Model
 
     protected $validationMessages = [
         'medida_id'  => [
-            'required' => 'Desculpe. O campo Especificação é obrigatorio.',
+            'required' => 'Desculpe. O campo Medida é obrigatorio.',
         ],
         'preco'  => [
             'required' => 'Desculpe. O campo Preço é obrigatorio.',
@@ -44,6 +44,16 @@ class ProdutoEspecificacaoModel extends Model
                     ->join('produtos', 'produtos.id = produtos_especificacoes.produto_id')
                     ->where('produtos_especificacoes.produto_id', $produto_id)
                     ->paginate($quantidade_paginacao);
+    }
+
+    public function buscaEspecificacoesDoProdutoDetalhes(int $produto_id){
+
+        return $this->select('medidas.nome, produtos_especificacoes.id AS especificacao_id, produtos_especificacoes.preco')
+                    ->join('medidas', 'medidas.id = produtos_especificacoes.medida_id')
+                    ->join('produtos', 'produtos.id = produtos_especificacoes.produto_id')
+                    ->where('produtos_especificacoes.produto_id', $produto_id)
+                    ->findAll();
+
     }
 
 
