@@ -297,8 +297,6 @@
         <?php endif; ?>
 
 
-
-
          <!-- Essa section renderizará os conteudos especificos da view que estender esse layout -->
         <?php echo $this->renderSection('conteudo') ?> 
 
