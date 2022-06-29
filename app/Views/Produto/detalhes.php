@@ -22,20 +22,22 @@
             <div class="product-content product-wrap clearfix product-deatil">
                 <div class="row">
                     
-                    <!-- mensagem de error na tela  -->
-                    <?php if(session()->has('errors_model')): ?>
-                    <ul>
-                        <?php foreach(session('errors_model') as $error): ?>
-                        <li class="text-danger"><?php echo  $error;?></li>
-                        <?php endforeach; ?>
-                    </ul>
-                    <?php endif; ?>
+                   
 
-                    <div class="col-md-5 col-sm-12 col-xs-12">
+                    <div class="col-md-4 col-sm-12 col-xs-12">
                         <div class="product-image">
                             <img src="<?php echo site_url("produto/imagem/$produto->imagem"); ?>" alt="<?php echo esc($produto->nome); ?>" />
                         </div>
                     </div>
+
+                     <!-- mensagem de error na tela  -->
+                     <?php if(session()->has('errors_model')): ?>
+                        <ul style="margin-left:-1.6em !important; list-style: decimal;">
+                            <?php foreach(session('errors_model') as $error): ?>
+                            <li class="text-danger"><?php echo  $error;?></li>
+                            <?php endforeach; ?>
+                        </ul>
+                    <?php endif; ?>
 
                 <?php echo form_open("carrinho/adicionar");?>
                     <div class="col-md-6 col-md-offset-1 col-sm-12 col-xs-12">
@@ -81,7 +83,7 @@
 
                                     <div class="radio">
                                         <label style="font-size: 16px;">
-                                            <input type="radio" style="margin-top: 2px" class="extra" data-extra="<?php echo $extra->id_principal; ?>"
+                                            <input type="radio" style="margin-top: 2px" class="extra" data-extra="<?php echo $extra->id; ?>"
                                                     name="extra" value="<?php echo $extra->preco; ?>">
                                                     <?php echo esc($extra->nome);?>
                                                     <?php echo esc(number_format($extra->preco, 2));?>
@@ -106,7 +108,7 @@
                             <div id="myTabContent" class="tab-content">
                                 <div class="tab-pane fade active in" style="font-size: 16px" id="more-information">
                                     <br />
-                                    <strong>Descrição</strong>
+                                    <strong>É uma delicia</strong>
                                     <p>
                                     <?php echo esc($produto->ingredientes); ?>
                                     </p>
@@ -117,7 +119,7 @@
 
                         <div>
                             <!--  Campos hidden que usaremos no controller  -->
-                            <input type="text" name="produto[slug]" placeholder="produto[slug]" value="<?php echo $produto->slug;  ?>">
+                            <input type="text" name="produto[slug]" value="<?php echo $produto->slug;  ?>" placeholder="produto[slug]">
                             <input type="text" id="especificacao_id" name="produto[especificacao_id]" placeholder="produto[especificacao_id]">
                             <input type="text" id="extra_id"    name="produto[extra_id]" placeholder="produto[extra_id]">
 
@@ -178,17 +180,17 @@
         $(".especificacao").on('click', function(){
             especificacao_id = $(this).attr('data-especificacao');
 
-            $("especificacao_id").val(especificacao_id);
+            $("#especificacao_id").val(especificacao_id);
 
             
             $("#btn-adiciona").prop("disabled", false);
 
-            $("#btn-adiciona").prop("value", "Carrinho");
+            $("#btn-adiciona").prop("value", "Adicionar ao carrinho");
 
         });
 
         $(".extra").on('click', function(){
-            extra_id = $(this).attr('data-extra');
+           var extra_id = $(this).attr('data-extra');
 
             $("#extra_id").val(extra_id);
 
